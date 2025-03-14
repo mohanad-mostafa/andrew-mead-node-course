@@ -7,7 +7,17 @@
 // ----------------------------------------------------------------------------
 
 // tutorial 2
-const getNotes = require('./utils.js');
-console.log(getNotes());
+// const getNotes = require('./utils.js');
+// console.log(getNotes());
 
 // ----------------------------------------------------------------------------
+
+// tutorial 3
+const validator = require('validator');
+const chalk = require('chalk');
+
+console.log(chalk.green('Success!'));
+console.log(chalk.blue('Hello world!'));
+
+const error = chalk.red.bold.inverse;
+console.log(error('Error!'));
